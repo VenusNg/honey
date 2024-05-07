@@ -1,12 +1,20 @@
 
 function App() {
   return (
-    <div>
-    <button type="button">Click Me!</button>
-    <p>hi</p>
-    <p>venus</p>
-    </div>
+    <div style={{ display: 'flex' }}>
+    <img
+        src="https://via.placeholder.com/300"
+        alt="Placeholder Image 1"
+        style={{ flex: 1, margin: '10px' }}
+    />
+    <img
+        src="https://via.placeholder.com/300"
+        alt="Placeholder Image 2"
+        style={{ flex: 1, margin: '10px' }}
+    />
+</div>
   );
 }
 
 export default App;
+
